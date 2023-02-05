@@ -1,0 +1,18 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 1;
+}

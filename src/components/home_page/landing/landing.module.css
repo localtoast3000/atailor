@@ -1,0 +1,50 @@
+.landingContainer {
+  width: 100%;
+  height: 100%;
+}
+.imageLayer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr 1fr;
+  background: linear-gradient(#000000, #ffffff2f), url('/images/HomePage.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  padding: 40px 50px;
+}
+
+.topRow {
+  display: grid;
+  grid-template-columns: repeat(5, calc(100% / 5));
+  grid-template-rows: 100px;
+  left: 0;
+  width: 100%;
+  align-items: center;
+}
+.btnLinkGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: start;
+  grid-column: 1 / span 2;
+}
+.topRowLogo {
+  justify-self: center;
+  height: 40px;
+  width: auto;
+}
+.topRowBtn {
+  background-color: var(--yellow);
+  color: var(--blue);
+}
+.topRowLink {
+  color: var(--white);
+  margin-left: 20px;
+}
+.topRowProfileBtn {
+  background-color: var(--yellow);
+  justify-self: end;
+  grid-column: 5;
+}

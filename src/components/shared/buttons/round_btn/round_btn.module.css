@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button:active {
+  opacity: 1;
+}

@@ -1,0 +1,14 @@
+.container {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--yellow);
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 0.8rem;
+  z-index: 9999;
+  height: 40px;
+}
