@@ -35,6 +35,10 @@ export default function Landing() {
         </div>
         <header className={styles.headerContainer}>
           <h1>La mode sur-mesure, équitable et accessible.</h1>
+          <p>
+            Lorem ipsum dolor sit amet. Ut sint cumque eum laborum vitae At voluptatem
+            quos qui exercitationem.
+          </p>
         </header>
       </div>
     </section>

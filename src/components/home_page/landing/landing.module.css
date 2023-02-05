@@ -48,3 +48,17 @@
   justify-self: end;
   grid-column: 5;
 }
+.headerContainer {
+  width: 100%;
+}
+.headerContainer h1 {
+  font-size: 4rem;
+  color: var(--white);
+  width: 60%;
+  margin-bottom: 10px;
+}
+.headerContainer p {
+  font-size: 1.3rem;
+  color: var(--white);
+  width: 50%;
+}
