@@ -1,0 +1,30 @@
+.summaryContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
+  align-items: center;
+}
+.header {
+  justify-self: center;
+  font-size: 3rem;
+  width: 50%;
+  text-align: center;
+  color: var(--blue);
+}
+.iconDescriptionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
+  justify-self: center;
+}
+.livrasionImage {
+  width: 75px;
+  height: auto;
+}
+.dispoImage {
+  width: 50px;
+  height: auto;
+}

@@ -1,0 +1,12 @@
+.iconDescriptionWrapper {
+  color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconDescriptionWrapper p {
+  width: 130px;
+  text-align: center;
+  margin-top: 10px;
+}

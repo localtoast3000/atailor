@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/pages/index.module.css';
-import { Landing } from '@/components/home_page/home_page';
+import { Landing, Summary, Why } from '@/components/home_page/home_page';
 
 export default function Home() {
   return (
@@ -22,6 +22,8 @@ export default function Home() {
       </Head>
       <main className={styles.mainContainer}>
         <Landing />
+        <Summary />
+        <Why />
       </main>
     </>
   );
