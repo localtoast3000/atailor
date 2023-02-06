@@ -1,6 +1,13 @@
 import Head from 'next/head';
 import styles from '../styles/pages/index.module.css';
-import { Landing, Summary, Why } from '@/components/home_page/home_page';
+import {
+  Landing,
+  Summary,
+  Why,
+  Couturiers,
+  Proposition,
+  Avis,
+} from '@/components/home_page/home_page';
 
 export default function Home() {
   return (
@@ -24,6 +31,9 @@ export default function Home() {
         <Landing />
         <Summary />
         <Why />
+        <Couturiers />
+        <Proposition />
+        <Avis />
       </main>
     </>
   );

@@ -1,0 +1,54 @@
+.couturiersContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  color: var(--blue);
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+}
+.header {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.subHeader {
+  font-size: 3.5rem;
+  text-align: center;
+}
+.btn {
+  margin-top: 30px;
+}
+.couturiersImagesContainer {
+  display: grid;
+  grid-template-columns: 50% 25%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+.scrollDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 500px;
+}
+.scrollSign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scrollText {
+  margin-left: 10px;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,14 @@
+.iconFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px var(--blue);
+  width: 50px;
+  height: 78px;
+  border-radius: 25px;
+}
+
+.icon {
+  fill: var(--blue);
+  width: 20px;
+}

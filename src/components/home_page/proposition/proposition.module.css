@@ -1,0 +1,33 @@
+.propositionContainer {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(#ffffff2f, #3a3a3a), url('/images/pro.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  color: var(--white);
+  padding: 50px;
+}
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 100%;
+}
+.header {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.subHeader {
+  font-size: 2rem;
+  width: 500px;
+  align-self: start;
+}
+.btn {
+  align-self: start;
+  margin-top: 30px;
+}

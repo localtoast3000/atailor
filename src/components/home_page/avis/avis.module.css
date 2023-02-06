@@ -1,0 +1,57 @@
+.avisContainer {
+  position: relative;
+  display: grid;
+  background-color: var(--yellow);
+}
+.rearLayer {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  height: 100%;
+}
+.rearLayer h3 {
+  align-self: center;
+  justify-self: end;
+  margin-right: 30px;
+  font-size: 12rem;
+  color: rgba(255, 255, 255, 0.507);
+}
+.frontLayer {
+  display: grid;
+  grid-template-columns: 380px auto 380px;
+  width: 100%;
+  height: 100%;
+}
+.avisText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+  font-size: 2.5rem;
+  z-index: 2;
+  text-align: center;
+  color: var(--blue);
+  height: 100%;
+}
+.info {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+.quoteMark {
+  font-weight: 800;
+}
+.info p:nth-child(1) {
+  font-weight: 600;
+}
+
+.directionBtnsWrapper {
+  grid-column: 3;
+  align-self: end;
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  gap: 30px;
+  margin: 100px;
+}

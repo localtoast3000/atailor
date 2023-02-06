@@ -1,0 +1,10 @@
+.iconFrame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  fill: var(--blue);
+  width: 15px;
+}

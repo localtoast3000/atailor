@@ -1,0 +1,56 @@
+.button {
+  --radius-position: 300px;
+  --color-trans: var(--blue);
+  --animation: textRight 0.3s linear;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: var(--yellow);
+  color: var(--color-trans);
+}
+.button:hover {
+  --radius-position: 0px;
+  --color-trans: var(--gold);
+  --animation: textLeft 0.2s linear;
+}
+
+.button p {
+  transform: translateX(var(--text-pos));
+  z-index: 9999;
+  transition: transform 0.2s ease-in;
+  animation: var(--animation);
+}
+.radius {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  border-radius: 50%;
+  transform: translateY(var(--radius-position));
+  background-color: var(--blue);
+  transition: transform 0.2s ease-in-out;
+}
+
+@keyframes textLeft {
+  from {
+    transform: translateX(10px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes textRight {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
