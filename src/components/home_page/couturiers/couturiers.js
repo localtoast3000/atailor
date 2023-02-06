@@ -7,7 +7,7 @@ export default function Couturiers() {
   return (
     <section className={styles.couturiersContainer}>
       <div className={styles.headerContainer}>
-        <h2 className={styles.header}>Découvrez nos couturiers</h2>
+        <h3 className={styles.header}>Découvrez nos couturiers</h3>
         <p className={styles.subHeader}>et discutez avec eux.</p>
         <AscendingRadiusColorTransBtnBg className={styles.btn}>
           JE CRÉER MON VÊTEMENT

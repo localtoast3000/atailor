@@ -7,6 +7,8 @@ import {
   Couturiers,
   Proposition,
   Avis,
+  Faq,
+  Footer,
 } from '@/components/home_page/home_page';
 
 export default function Home() {
@@ -34,6 +36,8 @@ export default function Home() {
         <Couturiers />
         <Proposition />
         <Avis />
+        <Faq />
+        <Footer />
       </main>
     </>
   );

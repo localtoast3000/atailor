@@ -13,7 +13,7 @@ export default function Landing() {
   return (
     <section className={styles.landingContainer}>
       <TopBanner />
-      <div class={styles.imageLayer}>
+      <div className={styles.imageLayer}>
         <div className={styles.topRow}>
           <div className={styles.btnLinkGroup}>
             <BasicBtn className={styles.yellowBtn}>CRÉER MON VÊTEMENT</BasicBtn>

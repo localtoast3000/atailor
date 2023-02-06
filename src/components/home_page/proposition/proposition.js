@@ -5,7 +5,7 @@ export default function Proposition() {
   return (
     <section className={styles.propositionContainer}>
       <div className={styles.headerContainer}>
-        <h2 className={styles.header}>Vous êtes un Couturier Professionnel ?</h2>
+        <h3 className={styles.header}>Vous êtes un Couturier Professionnel ?</h3>
         <p className={styles.subHeader}>
           Rejoignez le mouvement et développez votre activité !
         </p>

@@ -12,7 +12,7 @@ export default function Why() {
         className={styles.image}
       />
       <div className={styles.whyText}>
-        <h2 className={styles.header}>Pourquoi choisir Atailor ?</h2>
+        <h3 className={styles.header}>Pourquoi choisir Atailor ?</h3>
         <div className={styles.description}>
           <p>
             Dans de nombreux pays, on ne compte pas sur les chaînes de vêtements pour

@@ -5,7 +5,7 @@ import styles from './summary.module.css';
 export default function Summary() {
   return (
     <section className={styles.summaryContainer}>
-      <h2 className={styles.header}>La mode sur-mesure, équitable et accessible.</h2>
+      <h3 className={styles.header}>La mode sur-mesure, équitable et accessible.</h3>
       <div className={styles.iconDescriptionContainer}>
         <IconDescription
           src='/images/approuve.png'

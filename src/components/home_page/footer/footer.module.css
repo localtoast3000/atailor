@@ -1,0 +1,93 @@
+.footerContainer {
+  position: relative;
+  width: 100%;
+  background-color: var(--blue);
+  border-radius: 50px 50px 0 0;
+  color: var(--white);
+  overflow: hidden;
+}
+.rearLayer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 0;
+}
+.backgroundLogo {
+  width: 95%;
+  height: auto;
+  transform: translateY(150px);
+}
+.sections {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, calc(100% / 3));
+  padding: 50px;
+  width: 100%;
+  z-index: 2;
+}
+
+.firstSection h5 {
+  font-size: 2.5rem;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.emailInputWrapper {
+  display: grid;
+  grid-template-columns: 300px 130px;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.emailInput {
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+.copyRight {
+  font-size: 0.9rem;
+  width: 100%;
+  font-weight: 500;
+}
+.secondSection {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-end;
+  gap: 50px;
+}
+.footerLinks h6 {
+  font-size: 2rem;
+}
+.footerLinks ul {
+  list-style: none;
+}
+.footerLinks li {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+.footerLink {
+  color: var(--white);
+}
+.thirdSection {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.mediaBtns {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  grid-template-rows: 40px;
+  gap: 5px;
+  margin-right: 100px;
+}
+.mediaBtn {
+  padding: 0;
+  background-color: transparent;
+}
+.mediaImage {
+  width: 80%;
+  height: auto;
+}

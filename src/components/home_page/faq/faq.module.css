@@ -1,0 +1,33 @@
+.faqContainer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px auto auto;
+  width: 100%;
+  padding: 40px;
+}
+.header {
+  color: #28287f3b;
+  font-size: 3rem;
+}
+.qaCardsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.qaCard {
+  margin-top: 20px;
+}
+.suivezContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.suivezHeader {
+  color: var(--gold);
+  font-size: 3rem;
+}
+.resizeBtn {
+  border: solid 1px var(--blue);
+  color: var(--blue);
+  min-width: 200px;
+  margin: 50px auto 50px auto;
+}
