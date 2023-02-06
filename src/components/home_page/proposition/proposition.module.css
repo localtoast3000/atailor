@@ -9,6 +9,8 @@
   width: 100%;
   color: var(--white);
   padding: 50px;
+  min-height: 500px;
+  grid-row: 5;
 }
 .headerContainer {
   display: flex;
@@ -30,4 +32,25 @@
 .btn {
   align-self: start;
   margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  .headerContainer {
+    width: 100%;
+  }
+  .header {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .subHeader {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .btn {
+    width: 100%;
+    align-self: center;
+    height: 50px;
+    font-size: 0.6rem;
+  }
 }

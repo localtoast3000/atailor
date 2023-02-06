@@ -12,6 +12,7 @@ export default function Footer() {
           src='/images/logo footer.png'
           width='600'
           height='200'
+          alt='footer logo'
         />
       </div>
       <div className={styles.sections}>
@@ -23,7 +24,7 @@ export default function Footer() {
               placeholder='Email'
               type='text'
             />
-            <BasicBtn>JE M'INSCRIS</BasicBtn>
+            <BasicBtn className={styles.inputBtn}>JE M'INSCRIS</BasicBtn>
           </div>
           <p className={styles.copyRight}>
             ATAILOR © All rights reserved. Termes & Conditions
@@ -32,8 +33,10 @@ export default function Footer() {
         <div className={styles.secondSection}>
           {Array(3)
             .fill('')
-            .map(() => (
-              <div className={styles.footerLinks}>
+            .map((_, i) => (
+              <div
+                className={styles.footerLinks}
+                key={i}>
                 <h6>Atailor</h6>
                 <ul>
                   <li>
@@ -69,6 +72,7 @@ export default function Footer() {
                 src='/images/fb.png'
                 width='100'
                 height='100'
+                alt='facebook'
               />
             </BasicBtn>
             <BasicBtn className={styles.mediaBtn}>
@@ -77,6 +81,7 @@ export default function Footer() {
                 src='/images/insta.png'
                 width='100'
                 height='100'
+                alt='instagram'
               />
             </BasicBtn>
             <BasicBtn className={styles.mediaBtn}>
@@ -85,6 +90,7 @@ export default function Footer() {
                 src='/images/pinterest.png'
                 width='100'
                 height='100'
+                alt='pinterest'
               />
             </BasicBtn>
             <BasicBtn className={styles.mediaBtn}>
@@ -93,6 +99,7 @@ export default function Footer() {
                 src='/images/mail.png'
                 width='100'
                 height='100'
+                alt='mail'
               />
             </BasicBtn>
           </div>

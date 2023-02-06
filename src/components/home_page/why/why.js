@@ -9,6 +9,7 @@ export default function Why() {
         src='/images/pourquoi.png'
         width='300'
         height='400'
+        alt='worker'
         className={styles.image}
       />
       <div className={styles.whyText}>

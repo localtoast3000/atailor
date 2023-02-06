@@ -4,6 +4,7 @@
   grid-template-rows: 1fr 1fr;
   height: 500px;
   align-items: center;
+  grid-row: 2;
 }
 .header {
   justify-self: center;
@@ -27,4 +28,27 @@
 .dispoImage {
   width: 50px;
   height: auto;
+}
+
+@media (max-width: 1300px) {
+  .summaryContainer {
+    grid-template-rows: auto auto;
+    padding: 20px;
+  }
+  .header {
+    font-size: 3rem;
+    width: 90%;
+  }
+  .image {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .summaryContainer {
+    height: auto;
+  }
+  .header {
+    font-size: 2rem;
+    width: 90%;
+  }
 }

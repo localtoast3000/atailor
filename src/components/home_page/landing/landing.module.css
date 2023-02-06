@@ -1,6 +1,7 @@
 .landingContainer {
   width: 100%;
   height: 100%;
+  grid-row: 1;
 }
 .imageLayer {
   display: grid;
@@ -24,10 +25,8 @@
   align-items: center;
 }
 .btnLinkGroup {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  justify-self: start;
+  display: grid;
+  grid-template-columns: 200px 130px 200px;
   grid-column: 1 / span 2;
 }
 .topRowLogo {
@@ -72,4 +71,96 @@
   align-self: end;
   justify-self: end;
   border-radius: 13px;
+}
+
+@media (max-width: 1300px) {
+  .topRow {
+    grid-template-rows: repeat(3, 100px);
+  }
+  .btnLinkGroup {
+    grid-column: 1 / span 5;
+    grid-row: 2;
+  }
+  .topRowLink {
+    font-size: 0.9rem;
+  }
+  .topRowProfileBtn {
+    grid-column: 5;
+  }
+  .topRowLogo {
+    grid-column: 3 / span 1;
+  }
+  .headerContainer h1 {
+    font-size: 3rem;
+  }
+  .subHeader {
+    font-size: 1rem;
+    color: var(--white);
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .headerContainer h1 {
+    font-size: 2rem;
+  }
+  .subHeader {
+    font-size: 0.9rem;
+    color: var(--white);
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .imageLayer {
+    grid-template-rows: auto auto auto;
+    padding: 40px 20px;
+  }
+  .topRow {
+    grid-template-rows: 100px 100px 50px;
+  }
+  .btnLinkGroup {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 30px);
+    grid-column: 1 / span 5;
+    grid-row: 2;
+  }
+  .linkGroupBtn {
+    width: 200px;
+    font-size: 0.6rem;
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    margin-bottom: 10px;
+    height: 35px;
+  }
+  .topRowLink {
+    align-self: center;
+    justify-self: center;
+    font-size: 0.7rem;
+    margin: 0;
+    margin-top: 10px;
+  }
+  .topRowProfileBtn {
+    grid-column: 5;
+    grid-row: 3;
+  }
+  .topRowLogo {
+    grid-column: 3 / span 1;
+  }
+  .headerContainer h1 {
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .subHeader {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .mainBtn {
+    font-size: 0.7rem;
+    margin-bottom: 20px;
+  }
 }

@@ -2,6 +2,8 @@
   position: relative;
   display: grid;
   background-color: var(--yellow);
+  min-height: 500px;
+  grid-row: 6;
 }
 .rearLayer {
   position: absolute;
@@ -54,4 +56,67 @@
   grid-template-columns: 50px 50px;
   gap: 30px;
   margin: 100px;
+}
+.directionBtn {
+  background-color: var(--white);
+}
+
+@media (max-width: 1300px) {
+  .avisContainer {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    padding: 20px;
+  }
+  .rearLayer {
+    grid-template-columns: 100%;
+  }
+  .rearLayer h3 {
+    justify-self: center;
+  }
+  .frontLayer {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+  }
+  .avisText {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 2rem;
+    width: 80%;
+    justify-self: center;
+  }
+  .info {
+    font-size: 1.5rem;
+  }
+  .directionBtnsWrapper {
+    grid-column: 1;
+    justify-self: center;
+    grid-template-columns: 50px 50px;
+    gap: 30px;
+    margin: 0;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .rearLayer h3 {
+    font-size: 8rem;
+  }
+  .avisText {
+    font-size: 2rem;
+  }
+  .info {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .rearLayer h3 {
+    font-size: 5rem;
+  }
+  .avisText {
+    font-size: 1.5rem;
+  }
+  .info {
+    font-size: 1rem;
+  }
 }

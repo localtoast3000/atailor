@@ -16,7 +16,9 @@ export default function Landing() {
       <div className={styles.imageLayer}>
         <div className={styles.topRow}>
           <div className={styles.btnLinkGroup}>
-            <BasicBtn className={styles.yellowBtn}>CRÉER MON VÊTEMENT</BasicBtn>
+            <BasicBtn className={`${styles.yellowBtn} ${styles.linkGroupBtn}`}>
+              CRÉER MON VÊTEMENT
+            </BasicBtn>
             <Link
               className={styles.topRowLink}
               href=''>
@@ -34,6 +36,7 @@ export default function Landing() {
               src='/images/profil.png'
               width='18'
               height='18'
+              alt='profile'
             />
           </RoundBtn>
         </div>
@@ -43,7 +46,7 @@ export default function Landing() {
             Lorem ipsum dolor sit amet. Ut sint cumque eum laborum vitae At voluptatem
             quos qui exercitationem.
           </p>
-          <AscendingRadiusBtn className={styles.yellowBtn}>
+          <AscendingRadiusBtn className={`${styles.yellowBtn} ${styles.mainBtn}`}>
             JE DÉCOUVRE LES COUTURIERS
           </AscendingRadiusBtn>
         </header>
@@ -52,6 +55,7 @@ export default function Landing() {
             src='/images/chat.png'
             width='25'
             height='25'
+            alt='chat bubble'
           />
         </BasicBtn>
       </div>

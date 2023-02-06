@@ -15,11 +15,26 @@ export default function Couturiers() {
       </div>
       <div className={styles.couturiersImagesContainer}>
         <div className={styles.scrollDiv}>
-          <CouturiersImage src='/images/couturier2.png' />
-          <CouturiersImage src='/images/couturier3.png' />
-          <CouturiersImage src='/images/couturier1.png' />
-          <CouturiersImage src='/images/couturier2.png' />
-          <CouturiersImage src='/images/couturier3.png' />
+          <CouturiersImage
+            className={styles.image}
+            src='/images/couturier2.png'
+          />
+          <CouturiersImage
+            className={styles.image}
+            src='/images/couturier3.png'
+          />
+          <CouturiersImage
+            className={styles.image}
+            src='/images/couturier1.png'
+          />
+          <CouturiersImage
+            className={styles.image}
+            src='/images/couturier2.png'
+          />
+          <CouturiersImage
+            className={styles.image}
+            src='/images/couturier3.png'
+          />
         </div>
         <div className={styles.scrollSign}>
           <ArrowIcon />
