@@ -10,10 +10,10 @@ export default function Avis() {
       </div>
       <div className={styles.frontLayer}>
         <div className={styles.avisText}>
-          <p className={styles.quoteMark}>"</p>
+          <p className={styles.quoteMark}>&quot;</p>
           <p className={styles.quote}>
             Je cherchais le meilleur rapport qualité/prix possible pour un costume. Et je
-            l'ai trouvé !
+            l&#39;ai trouvé !
           </p>
           <div className={styles.info}>
             <p>Benjamin, 31 ans</p>

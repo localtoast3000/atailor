@@ -24,7 +24,7 @@ export default function Footer() {
               placeholder='Email'
               type='text'
             />
-            <BasicBtn className={styles.inputBtn}>JE M'INSCRIS</BasicBtn>
+            <BasicBtn className={styles.inputBtn}>JE M&#39;INSCRIS</BasicBtn>
           </div>
           <p className={styles.copyRight}>
             ATAILOR © All rights reserved. Termes & Conditions
