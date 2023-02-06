@@ -1,6 +1,6 @@
 import styles from './qa_card.module.css';
 import { RoundBtn } from '@/components/shared/buttons/buttons';
-import { use, useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function QaCard({ className, question, answer }) {
   const [revealAnswer, setRevealAnswer] = useState(false);
