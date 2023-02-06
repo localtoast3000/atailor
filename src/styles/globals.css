@@ -11,6 +11,11 @@
 *::-webkit-scrollbar {
   display: none;
 }
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--main-font);
   overflow-x: hidden;
