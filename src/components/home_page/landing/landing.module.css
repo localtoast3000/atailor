@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1fr 1fr 1fr;
-  background: linear-gradient(#000000, #ffffff2f), url('/images/HomePage.png');
+  background: linear-gradient(#000000, #ffffff2f), url('/images/Homepage.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
